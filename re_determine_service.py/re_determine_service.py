@@ -92,7 +92,9 @@ def match_Service(all_poi_normal, all_poi_normal_num):
     temp_service_list = []
     matching_service = []
     A1_A1E_dis = []
+    C_CKV_dis =[]
     LT29_counter = 0
+    zero_speed_counter = 0
     counter = 0
     mid_appear_counter = 0
     start_match = 0
@@ -158,9 +160,9 @@ def match_Service(all_poi_normal, all_poi_normal_num):
                 if len(matching_service) > 0:
                     print('@@ ', matching_service)
                 print('counter: ----- ', counter)
-                print('time:', row[0])
+                print('time:', row[0])            
 
-            #D2  VS  UT-FoS   // D2 pass 2 times of LT29
+            #D2  VS  UT-FoS  // D2 pass 2 times of LT29
             if row[8] != 'LT29':
                 LT29_counter_state = True
             if row[8] == 'LT29' and LT29_counter_state:
@@ -170,6 +172,17 @@ def match_Service(all_poi_normal, all_poi_normal_num):
             ## match
             for i in matching_service:
 
+                # continuously, velocity = 0 for a long time --> re_match
+                if int(row[6]) == 0 and row[8] != all_poi_normal[i][0]:
+                    zero_speed_counter += 1
+                if int(row[6]) != 0:
+                    zero_speed_counter = 0
+
+                # A1  VS  A1E
+                if ('A1' in matching_service) and ('A1E' in matching_service):
+                    if row[8] not in A1_A1E_dis or row[8] != A1_A1E_dis[len(A1_A1E_dis) - 1]:
+                        A1_A1E_dis.append(row[8])
+
                 if row[8] == all_poi_normal[i][pointer_POI[i]]:
                     # print(row)
                     pointer_POI[i] += 1
@@ -177,10 +190,20 @@ def match_Service(all_poi_normal, all_poi_normal_num):
                     if pointer_POI[i] == 2:
                         print('start_service_time: ', row[0])
 
-                    # A1  VS  A1E
-                    if ('A1' in matching_service) and ('A1E' in matching_service):
-                        if row[8] not in A1_A1E_dis:
-                            A1_A1E_dis.append(row[8])
+                    # # A1  VS  A1E
+                    # if ('A1' in matching_service) and ('A1E' in matching_service):
+                    #     if row[8] not in A1_A1E_dis:
+                    #         A1_A1E_dis.append(row[8])
+
+                    # C  VS  C*
+                    if ('C' in matching_service) and ('C*' in matching_service):
+                        if row[8] not in C_CKV_dis:
+                            C_CKV_dis.append(row[8])
+
+                        # if row[8] not in A1_A1E_dis:
+                        #     A1_A1E_dis.append(row[8])
+                            # print('A1_A1E_dis: ', A1_A1E_dis)
+                    # pdb.set_trace()
                     
                 if (row[8] != all_poi_normal[i][0]):    ##!!!!!improvement
                     check = True
@@ -192,27 +215,34 @@ def match_Service(all_poi_normal, all_poi_normal_num):
                         mid_appear_counter += 1   #在for循环里面，每行都会自加len(matching_service)次
                         # print(row)
                         # print('-?-', mid_appear_counter)
+                    else:
+                        mid_appear_counter = 0
                         
                     # must stop and restart matching
                     if row[8] in must_stop_point and ('BTC1' not in matching_service):
                         must_stop_counter += 1    #在for循环里面，每行都会自加len(matching_service)次
                         # print('must stop poi:', must_stop_counter)
                         # print('counter is ', counter)
-                    if row[8] == 'BIZ2' and int(row[6]) <= 2:
+                    if ('B2' in matching_service or 'D1' in matching_service) and row[8] == 'BIZ2' and int(row[6]) <= 1:
                         biz2_stop_counter += 1
                         # print('biz2_stop_counter: ',biz2_stop_counter)
+                    if row[8] != 'BIZ2':
+                        biz2_stop_counter = 0
 
                     if (mid_appear_counter // len(matching_service) >= 35) or \
                         (must_stop_counter // len(matching_service) >= 35) or \
-                        (biz2_stop_counter // len(matching_service) >= 50) :
+                        (biz2_stop_counter // len(matching_service) >= 50) or \
+                        (zero_speed_counter // len(matching_service) >= 300):
                         match_start_state = True
                         check = False
                         mid_appear_counter = 0
                         must_stop_counter = 0
                         biz2_stop_counter = 0
                         counter_start_mark = 0
+                        zero_speed_counter = 0
                         LT29_counter = 0
                         matching_service = []
+                        A1_A1E_dis = []
                         print('pause counter: -- ', counter)
                         # if pointer_POI[i] < all_poi_normal_num[i]:
                         #     start_POI_copy.pop(start_POI_copy.index(all_poi_normal[i][0]))
@@ -225,6 +255,7 @@ def match_Service(all_poi_normal, all_poi_normal_num):
                 if pointer_POI[i] == all_poi_normal_num[i]:
                     # A1  VS A1E
                     # if (i == 'A1E') and ('COM 2 (CP13)' in A1_A1E_dis):
+                    print('A1_A1E_dis: ', A1_A1E_dis)
                     if i == 'A1E' and A1_A1E_dis[A1_A1E_dis.index('COM 2 (CP13)') + 1] == 'Opp NUSS':
                         # print('A1_A1E_dis: ', A1_A1E_dis)
                         matching_service.pop(matching_service.index('A1E'))
@@ -235,10 +266,13 @@ def match_Service(all_poi_normal, all_poi_normal_num):
                     # D2  VS  UT-FoS
                     if (i == 'D2') and LT29_counter > 3:
                         i = 'UT-FoS'
-                        print('LT29_counter:', LT29_counter)
+                        # print('LT29_counter:', LT29_counter)
 
                     # C  VS  C*
-                    
+                    if i == 'C*' and 'Computer Centre' in C_CKV_dis:
+                        matching_service.pop(matching_service.index('C*'))
+                        C_CKV_dis = []
+                        break                    
 
                     temp_service_list.append(i)
                     print('SUCCESS----: ', i)
@@ -250,6 +284,7 @@ def match_Service(all_poi_normal, all_poi_normal_num):
                     biz2_stop_counter = 0
                     counter_start_mark = 0
                     LT29_counter = 0
+                    A1_A1E_dis = []
                     # start_POI_copy = copy.deepcopy(start_POI)
                     for j in service_copy:
                         # pointer_State[j] = True
