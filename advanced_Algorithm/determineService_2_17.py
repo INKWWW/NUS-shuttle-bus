@@ -18,7 +18,7 @@ start_point = ['Prince George\'s Park Terminal', 'Kent Ridge Bus Terminal', 'BIZ
 # stop_point = ['Prince George\'s Park Terminal', 'Kent Ridge Bus Terminal', 'Car Park 11', 'BTC - Oei Tiong Ham Building']
 headers = ['node_id','vehicle_serial','gps_time','latitude', 'longitude', 'altitude', 'speed', 'heading', 'POI', 'service', 'service_start_stop']
 service = ['A1', 'A2', 'B1', 'B2', 'C*', 'C', 'D1', 'D2', 'A1E', 'A2E', 'BTC1', 'BTC2', 'UT-FoS'] #13
-start_POI = ['Prince George\'s Park Terminal', 'Kent Ridge Bus Terminal', 'BIZ2', 'Opp HSSML', 'Botanic Gardens MRT', 'University Town']
+start_POI = ['Prince George\'s Park Terminal', 'Kent Ridge Bus Terminal', 'BIZ2', 'Ventus (Opp LT13)', 'Botanic Gardens MRT', 'University Town']
 must_stop_point = ['Prince George\'s Park Terminal', 'Kent Ridge Bus Terminal', 'Botanic Gardens MRT']
 all_polygon = {}
 # 用于判断一天中间数据缺失，而且是在服务一开始最初选择candidate的阶段。若final_service_list已有这些站点中一个，
@@ -246,6 +246,9 @@ def match_Service(filepath, all_poi_normal, all_poi_normal_num):
                 for service_item in service_copy:              
                     if (all_poi_normal[service_item][0] == row[8]) and (row[8] in start_POI_copy) and service_item != 'UT-FoS':
                         pointer_POI[service_item] = 0
+                        #########
+                        # start_service_time[service_item] = row[2]
+                        # start_row_1[service_item] = counter
                         # pointer_State[service_item] = False
                     # 匹配到最后一个'UT-FoS'为止
                     if service_item == 'UT-FoS' and (0 in [values for key, values in pointer_POI.items()]):
@@ -300,10 +303,9 @@ def match_Service(filepath, all_poi_normal, all_poi_normal_num):
                 LT29_counter += 1
                 LT29_counter_state = False
 
+
             ############################### match ##############################
             for i in matching_service:
-
-                ### 针对中途丢失数据的进行匹配，当开始
 
                 # continuously, velocity = 0 for a long time --> re_match
                 if int(row[6]) <= 2 and row[8] != all_poi_normal[i][0]:
@@ -318,7 +320,9 @@ def match_Service(filepath, all_poi_normal, all_poi_normal_num):
                     if row[8] not in A1_A1E_dis or row[8] != A1_A1E_dis[len(A1_A1E_dis) - 1]:
                         A1_A1E_dis.append(row[8])
 
-                if pointer_POI[i] == 1 and int(row[6]) == 0 and start_service_time_state and (i != 'UT-FoS'):
+                ## 记录时间  row[8] == all_poi_normal[i][0]-->很重要，确保是在匹配第一个站的时候来确定起始时间
+                if pointer_POI[i] == 1 and int(row[6]) == 0 and row[8] == all_poi_normal[i][0] and \
+                    start_service_time_state and (i != 'UT-FoS'):
                     start_service_time[i] = row[2]
                     start_row_1[i] = counter
                     # print("!!!!!start !!!!!!!", start_service_time)
@@ -570,6 +574,10 @@ def match_Service(filepath, all_poi_normal, all_poi_normal_num):
                     # print('SUCCESS----: ', i)
                     # print('start_service_time ------- ', start_service_time[i])
                     # print('success_stop_row:  ', counter)
+                    # zero_counter = 0
+                    while(int(row[6]) > 0):
+                        row=next(r_ss)
+                        counter += 1
                     stop_row.append(counter)
                     
                     # 异常处理--对开始时间进行最后确定
@@ -599,7 +607,7 @@ def match_Service(filepath, all_poi_normal, all_poi_normal_num):
                     A1_A1E_dis = []
                     start_row_1 = {}
                     start_row_2 = []
-                    start_service_time_state = True
+                    
                     # UT_FoS_match_state = True
                     UT_FoS_match_counter = 0
                     ## 针对每天第一趟服务的缺失假设状态进行置False，每个service只记录最早的那一次 ##
@@ -629,14 +637,18 @@ def match_Service(filepath, all_poi_normal, all_poi_normal_num):
     except IndexError as e:
         print(e)
     for i in range(len(final_service_list)):
-        if final_service_list[i] != 'UT-FoS':
-            service_time_pair.append([final_service_list[i], final_time[i], start_row[i]-60, stop_row[i]+60])         
+        if final_service_list[i] != 'UT-FoS' and i > 0:
+            if start_row[i]-60 <= service_time_pair[i-1][3]:
+                service_time_pair.append([final_service_list[i], final_time[i], service_time_pair[i-1][3]+1, stop_row[i]+5])
+            else:
+                service_time_pair.append([final_service_list[i], final_time[i], start_row[i]-5, stop_row[i]+5])
+
         else:
-            service_time_pair.append([final_service_list[i], final_time[i], start_row[i]-10, stop_row[i]+10])         
+            service_time_pair.append([final_service_list[i], final_time[i], start_row[i]-5, stop_row[i]+5])         
     print('result: \n', final_service_list)
     print('length: ', len(final_service_list))
     # print('service_time_pair: ')
-    # pprint.pprint(service_time_pair)
+    pprint.pprint(service_time_pair)
 
     dataframe = [ service_time_pair[i] for i in range(len(service_time_pair))]
     vehicle_id = filepath.split('/')[2].split('-')[0]
@@ -661,7 +673,7 @@ def tagService_RawData(read_filepath, write_filepath, all_record):
                 write_state = 0  #0:negative 1:active
                 write_start_state = 0
                 write_stop_state = 0
-                counter_all[row[0]] += 1
+                # counter_all[row[0]] += 1
                 for count in range(len(all_record[row[0]])):
                     # 如果这辆车的行数在一个服务的起停范围内，则标注相应的服务！
                     if counter_all[row[0]] >= all_record[row[0]][count][2] and counter_all[row[0]] <= all_record[row[0]][count][3]:
@@ -669,17 +681,25 @@ def tagService_RawData(read_filepath, write_filepath, all_record):
                         write_index = count  #需要写入服务的车在list中的index
                     if counter_all[row[0]] == all_record[row[0]][count][2]:  # 判断服务开始
                         write_start_state = 1
+                        write_start = count
+                        break
                     if counter_all[row[0]] == all_record[row[0]][count][3]:  #判断服务停止
                         write_stop_state = 1
+                        write_stop = count
+                        break
+               
+                counter_all[row[0]] += 1  #放在此处是为了能够将LDH的起始行时间算入
 
                 if write_state == 1 and write_start_state == 1:  # 标志服务的起始
-                    writer.writerow([row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], all_record[row[0]][write_index][0], 'service_start', '5'])
-                elif write_state == 1 and write_stop_state == 1:  # 标志服务的停止
-                    writer.writerow([row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], all_record[row[0]][write_index][0], 'service_stop', '5'])
-                elif write_state == 1:
-                    writer.writerow([row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], all_record[row[0]][write_index][0], ' ', '5'])
-                else:
-                    writer.writerow([row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], ' ', ' ', 'Running', ' '])
+                    writer.writerow([row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], all_record[row[0]][write_start][0], 'service_start'])
+                    # print('start-- ', write_start, counter_all[row[0]])
+                if write_state == 1 and write_stop_state == 1:  # 标志服务的停止
+                    writer.writerow([row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], all_record[row[0]][write_stop][0], 'service_stop'])
+                    # print('stop-- ', write_stop, counter_all[row[0]])
+                if write_state == 1 and write_start_state != 1 and write_stop_state != 1:
+                    writer.writerow([row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], all_record[row[0]][write_index][0], 'Running'])
+                if write_state != 1:
+                    writer.writerow([row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7]])
     print('Success!')
 
     #             if write_state == 1 and write_start_state == 1:  # 标志服务的起始
@@ -717,7 +737,7 @@ def run(folderpath, read_filepath, write_filepath):
 
         service_time_pair = match_Service(dir_filePath, all_poi_normal, all_poi_normal_num)[1]
         all_record[filePath.split('-')[0]] = service_time_pair
-    # print(all_record)   #{2023:[BTC1, [start_row, stop_row], BTC2, [start_row, stop_row], ....], 2024:...}
+    # pprint.pprint(all_record)   #{2023:[BTC1, start_row, stop_row, BTC2, start_row, stop_row, ....], 2024:...}
     
     #Last step to write final result on new_raw data
     tagService_RawData(read_filepath, write_filepath, all_record)
@@ -725,9 +745,9 @@ def run(folderpath, read_filepath, write_filepath):
 
 ############## main ###############
 if __name__ == "__main__":
-    folderpath = 'fenced_vehicle/2018-01-15'
-    read_filepath = 'fenced/fenced-2018-01-15.csv'
-    write_filepath = 'Final_Result/final_2018-01-15.csv'
+    folderpath = 'fenced_vehicle/2017-09-05'
+    read_filepath = 'fenced/fenced-2017-09-05.csv'
+    write_filepath = 'Final_Result/final_2017-09-05.csv'
     run(folderpath, read_filepath, write_filepath)
     
 
