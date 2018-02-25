@@ -1,11 +1,9 @@
 # NUS shuttle bus
-Analyze the mobility of NUS shuttle bus
 
-#Range:
-Analyse data + Back end + Database + Front end
+## Analyze the mobility of NUS shuttle bus
 
-#Tools:
+### Tools:
 Python, Postgresql, Tableau, Javascript--ArcGIS, HTML, CSS
 
-#URL:
+### URL - For 3D Map:
 https://www.nusgis.com/campusanalytics/wanghanmo/index.html
