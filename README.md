@@ -12,6 +12,5 @@ Python, Postgresql, Tableau
 
 ### URL - For 3D Map:
 Javascript-ArcGIS, HTML, CSS
->>>>>>> f1c595ab248accc9fba5cda44b88e44015c1ea3e
 https://www.nusgis.com/campusanalytics/wanghanmo/index.html
 
