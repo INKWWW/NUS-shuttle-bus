@@ -1,0 +1,622 @@
+node_id,vehicle_serial,date,time,speed,POI,service,service_start_stop,times of service,duration
+2038,PC3940L,2017-09-5,7:15:09,0,Prince George's Park Terminal,A1,service_start,1,18.0
+2052,PC4032B,2017-09-5,7:15:38,1,Prince George's Park Terminal,A2,service_start,1,13.67
+2079,PC3849T,2017-09-5,7:18:45,0,Prince George's Park Terminal,D2,service_start,1,23.9
+2028,PA9442D,2017-09-5,7:19:25,0,Kent Ridge Bus Terminal,C*,service_start,1,17.0
+2032,PC3876P,2017-09-5,7:21:02,23,Central Library,B1,service_start,1,9.0
+2050,PA33K,2017-09-5,7:21:31,2,Opp HSSML,D1,service_start,1,19.6
+2129,PC3867R,2017-09-5,7:23:25,2,Prince George's Park Terminal,A2,service_start,1,16.87
+2047,PC3787M,2017-09-5,7:23:52,0,University Town,D1-LDH-1.0,service_start,1,11.42
+2023,PC3983M,2017-09-5,7:24:01,0,Kent Ridge Bus Terminal,BTC1,service_start,1,26.0
+2024,PC3947T,2017-09-5,7:24:32,26,Kent Ridge MRT,A2E-LDH-1.0,service_start,1,12.0
+2043,PC4038K,2017-09-5,7:24:50,1,Prince George's Park Terminal,D2,service_start,1,25.47
+2027,PC3972U,2017-09-5,7:27:42,0,Opp HSSML,D1,service_start,1,18.93
+2042,PC3738E,2017-09-5,7:29:40,1,Prince George's Park Terminal,A2,service_start,1,21.72
+2054,PC3989Y,2017-09-5,7:31:35,0,Prince George's Park Terminal,D2,service_start,1,24.58
+2060,PC4071M,2017-09-5,7:33:08,0,Opp HSSML,D1,service_start,1,20.0
+2025,PC3957P,2017-09-5,7:33:48,0,Prince George's Park Terminal,A1,service_start,1,19.43
+2031,PC3785T,2017-09-5,7:37:48,6,Prince George's Park Terminal,A2,service_start,1,21.35
+2058,PC4009U,2017-09-5,7:38:29,0,Kent Ridge Bus Terminal,C*,service_start,1,19.67
+2055,PC3995D,2017-09-5,7:40:12,0,Kent Ridge Bus Terminal,B1,service_start,1,12.0
+2033,PC3925G,2017-09-5,7:40:19,2,Prince George's Park Terminal,A1,service_start,1,18.0
+2102,PC3769R,2017-09-5,7:42:43,0,Prince George's Park Terminal,D2,service_start,1,27.0
+2038,PC3940L,2017-09-5,7:45:55,3,Prince George's Park Terminal,A1,service_start,2,24.4
+2052,PC4032B,2017-09-5,7:46:58,7,Prince George's Park Terminal,A2,service_start,2,21.1
+2047,PC3787M,2017-09-5,7:47:29,0,Opp HSSML,D1,service_start,2,21.0
+2032,PC3876P,2017-09-5,7:48:49,12,BIZ2,B2,service_start,2,13.47
+2063,PC4068Z,2017-09-5,7:48:54,0,Prince George's Park Terminal,D2,service_start,1,27.7
+2028,PA9442D,2017-09-5,7:49:58,0,Kent Ridge Bus Terminal,C*,service_start,2,17.42
+2050,PA33K,2017-09-5,7:52:23,0,Opp HSSML,D1,service_start,2,19.82
+2024,PC3947T,2017-09-5,7:52:48,0,Prince George's Park Terminal,A1,service_start,2,18.38
+2075,PA2A,2017-09-5,7:54:11,0,Kent Ridge MRT,A2E-LDH-1.0,service_start,1,10.0
+2129,PC3867R,2017-09-5,7:54:26,0,Prince George's Park Terminal,A2,service_start,2,21.93
+2079,PC3849T,2017-09-5,7:55:04,0,Prince George's Park Terminal,D2,service_start,2,25.0
+2062,PC3931M,2017-09-5,7:57:42,0,Prince George's Park Terminal,A1,service_start,1,18.0
+2027,PC3972U,2017-09-5,7:58:30,0,Opp HSSML,D1,service_start,2,17.93
+2043,PC4038K,2017-09-5,8:00:24,0,Prince George's Park Terminal,D2,service_start,2,24.0
+2042,PC3738E,2017-09-5,8:00:33,4,Prince George's Park Terminal,A2,service_start,2,18.67
+2023,PC3983M,2017-09-5,8:01:08,0,Botanic Gardens MRT,BTC2,service_start,2,13.0
+2074,PC3880B,2017-09-5,8:02:29,0,Prince George's Park Terminal,A1,service_start,1,15.0
+2077,PC4051X,2017-09-5,8:02:33,0,Kent Ridge Bus Terminal,BTC1,service_start,1,31.92
+2060,PC4071M,2017-09-5,8:04:18,0,Opp HSSML,D1,service_start,2,19.85
+2075,PA2A,2017-09-5,8:04:30,3,Prince George's Park Terminal,A1E,service_start,2,16.97
+2025,PC3957P,2017-09-5,8:05:20,0,Prince George's Park Terminal,A1,service_start,2,19.0
+2054,PC3989Y,2017-09-5,8:06:00,0,Prince George's Park Terminal,D2,service_start,2,27.0
+2031,PC3785T,2017-09-5,8:07:23,0,Prince George's Park Terminal,A2,service_start,2,17.82
+2033,PC3925G,2017-09-5,8:09:29,3,Prince George's Park Terminal,A1,service_start,2,18.75
+2058,PC4009U,2017-09-5,8:09:44,0,Kent Ridge Bus Terminal,C*,service_start,2,16.92
+2055,PC3995D,2017-09-5,8:12:32,17,BIZ2,B2,service_start,2,11.52
+2038,PC3940L,2017-09-5,8:16:04,0,Prince George's Park Terminal,A1,service_start,3,24.0
+2047,PC3787M,2017-09-5,8:16:32,0,Opp HSSML,D1,service_start,3,20.92
+2052,PC4032B,2017-09-5,8:16:45,8,Prince George's Park Terminal,A2,service_start,3,20.67
+2102,PC3769R,2017-09-5,8:18:20,0,Prince George's Park Terminal,D2,service_start,2,29.0
+2028,PA9442D,2017-09-5,8:19:21,0,Kent Ridge Bus Terminal,C*,service_start,3,18.0
+2032,PC3876P,2017-09-5,8:20:19,0,Kent Ridge Bus Terminal,B1,service_start,3,14.0
+2074,PC3880B,2017-09-5,8:21:14,0,Prince George's Park Terminal,A1,service_start,2,16.0
+2050,PA33K,2017-09-5,8:23:09,0,Opp HSSML,D1,service_start,3,20.0
+2024,PC3947T,2017-09-5,8:23:14,0,Prince George's Park Terminal,A1,service_start,3,18.0
+2023,PC3983M,2017-09-5,8:24:05,0,Kent Ridge Bus Terminal,BTC1,service_start,3,31.0
+2129,PC3867R,2017-09-5,8:24:08,2,Prince George's Park Terminal,A2,service_start,3,21.0
+2063,PC4068Z,2017-09-5,8:25:16,0,Prince George's Park Terminal,D2,service_start,2,26.0
+2075,PA2A,2017-09-5,8:26:49,24,PGPR,A1E,service_start,3,13.88
+2027,PC3972U,2017-09-5,8:28:47,0,Opp HSSML,D1,service_start,3,19.62
+2062,PC3931M,2017-09-5,8:29:11,0,Prince George's Park Terminal,A1,service_start,2,21.0
+2079,PC3849T,2017-09-5,8:29:39,0,Prince George's Park Terminal,D2,service_start,3,25.55
+2042,PC3738E,2017-09-5,8:31:14,4,Prince George's Park Terminal,A2,service_start,3,18.87
+2060,PC4071M,2017-09-5,8:33:47,0,Opp HSSML,D1,service_start,3,23.45
+2025,PC3957P,2017-09-5,8:34:36,0,Prince George's Park Terminal,A1,service_start,3,21.0
+2043,PC4038K,2017-09-5,8:35:43,0,Prince George's Park Terminal,D2,service_start,3,29.0
+2074,PC3880B,2017-09-5,8:37:57,0,Prince George's Park Terminal,A1,service_start,3,21.67
+2031,PC3785T,2017-09-5,8:38:13,2,Prince George's Park Terminal,A2,service_start,3,22.0
+2055,PC3995D,2017-09-5,8:39:23,0,Kent Ridge Bus Terminal,B1,service_start,3,13.0
+2052,PC4032B,2017-09-5,8:40:33,0,Prince George's Park Terminal,A2-LDM-0.8,service_start,4,26.57
+2058,PC4009U,2017-09-5,8:40:48,0,Kent Ridge Bus Terminal,C*,service_start,3,17.27
+2033,PC3925G,2017-09-5,8:41:31,0,Prince George's Park Terminal,A1,service_start,3,21.9
+2077,PC4051X,2017-09-5,8:42:25,0,Botanic Gardens MRT,BTC2,service_start,2,15.93
+2054,PC3989Y,2017-09-5,8:42:37,0,Prince George's Park Terminal,D2,service_start,3,26.65
+2032,PC3876P,2017-09-5,8:42:39,17,BIZ2,B2,service_start,4,17.5
+2078,PC3906L,2017-09-5,8:43:11,0,Kent Ridge Bus Terminal,BTC1,service_start,1,31.0
+2038,PC3940L,2017-09-5,8:44:28,0,Prince George's Park Terminal,A1,service_start,4,20.6
+2075,PA2A,2017-09-5,8:45:46,15,PGPR,A1E,service_start,4,14.7
+2047,PC3787M,2017-09-5,8:48:57,2,Opp HSSML,D1,service_start,4,20.53
+2028,PA9442D,2017-09-5,8:50:34,0,Kent Ridge Bus Terminal,C*,service_start,4,18.8
+2024,PC3947T,2017-09-5,8:53:20,2,Prince George's Park Terminal,A1,service_start,4,17.9
+2050,PA33K,2017-09-5,8:55:11,0,Opp HSSML,D1,service_start,4,21.0
+2129,PC3867R,2017-09-5,8:55:11,5,Prince George's Park Terminal,A2,service_start,4,22.0
+2102,PC3769R,2017-09-5,8:55:57,0,Prince George's Park Terminal,D2,service_start,3,23.32
+2062,PC3931M,2017-09-5,8:58:34,0,Prince George's Park Terminal,A1,service_start,3,20.48
+2027,PC3972U,2017-09-5,8:58:51,0,Opp HSSML,D1,service_start,4,20.75
+2063,PC4068Z,2017-09-5,8:59:49,1,Prince George's Park Terminal,D2,service_start,3,22.55
+2077,PC4051X,2017-09-5,9:00:13,0,Kent Ridge Bus Terminal,BTC1,service_start,3,32.85
+2042,PC3738E,2017-09-5,9:00:47,2,Prince George's Park Terminal,A2,service_start,4,20.0
+2074,PC3880B,2017-09-5,9:01:30,21,Opp Kent Ridge MRT,A1-LDM-0.8571428571428571,service_start,4,11.0
+2023,PC3983M,2017-09-5,9:03:25,0,Botanic Gardens MRT,BTC2,service_start,4,15.82
+2075,PA2A,2017-09-5,9:04:16,21,PGPR,A1E,service_start,5,11.0
+2025,PC3957P,2017-09-5,9:04:25,0,Prince George's Park Terminal,A1,service_start,4,20.58
+2060,PC4071M,2017-09-5,9:04:43,0,Opp HSSML,D1,service_start,4,21.35
+2079,PC3849T,2017-09-5,9:05:45,0,Prince George's Park Terminal,D2,service_start,4,26.0
+2031,PC3785T,2017-09-5,9:07:20,4,Prince George's Park Terminal,A2,service_start,4,18.87
+2033,PC3925G,2017-09-5,9:09:38,0,Prince George's Park Terminal,A1,service_start,4,18.0
+2058,PC4009U,2017-09-5,9:09:41,0,Kent Ridge Bus Terminal,C*,service_start,4,15.0
+2043,PC4038K,2017-09-5,9:12:39,0,Prince George's Park Terminal,D2,service_start,4,21.85
+2055,PC3995D,2017-09-5,9:13:00,13,BIZ2,B2,service_start,4,14.0
+2074,PC3880B,2017-09-5,9:14:49,0,Prince George's Park Terminal,A1,service_start,5,13.38
+2047,PC3787M,2017-09-5,9:15:31,0,Opp HSSML,D1,service_start,5,19.0
+2038,PC3940L,2017-09-5,9:16:27,0,Prince George's Park Terminal,A1,service_start,5,18.0
+2052,PC4032B,2017-09-5,9:17:07,5,Prince George's Park Terminal,A2,service_start,5,18.0
+2032,PC3876P,2017-09-5,9:17:45,0,Kent Ridge Bus Terminal,B1,service_start,5,11.92
+2054,PC3989Y,2017-09-5,9:18:02,2,Prince George's Park Terminal,D2,service_start,4,25.0
+2028,PA9442D,2017-09-5,9:19:23,0,Kent Ridge Bus Terminal,C*,service_start,5,16.0
+2078,PC3906L,2017-09-5,9:22:30,0,Botanic Gardens MRT,BTC2,service_start,2,16.0
+2024,PC3947T,2017-09-5,9:22:36,0,Prince George's Park Terminal,A1,service_start,5,18.0
+2075,PA2A,2017-09-5,9:23:17,21,PGPR,A1E,service_start,6,11.97
+2050,PA33K,2017-09-5,9:23:38,1,Opp HSSML,D1,service_start,5,23.0
+2129,PC3867R,2017-09-5,9:24:35,0,Prince George's Park Terminal,A2,service_start,5,19.0
+2029,PC3763G,2017-09-5,9:25:59,0,Car Park 11 (BIZ),UT-FoS-LDH-1.0,service_start,1,46.27
+2062,PC3931M,2017-09-5,9:27:58,0,Prince George's Park Terminal,A1,service_start,4,22.45
+2027,PC3972U,2017-09-5,9:28:05,0,Opp HSSML,D1,service_start,5,23.0
+2102,PC3769R,2017-09-5,9:29:47,0,Prince George's Park Terminal,D2,service_start,4,26.0
+2042,PC3738E,2017-09-5,9:31:00,2,Prince George's Park Terminal,A2,service_start,5,21.0
+2023,PC3983M,2017-09-5,9:33:41,0,Kent Ridge Bus Terminal,BTC1,service_start,5,35.4
+2060,PC4071M,2017-09-5,9:33:46,0,Opp HSSML,D1,service_start,5,22.38
+2025,PC3957P,2017-09-5,9:35:18,1,Prince George's Park Terminal,A1,service_start,5,22.7
+2074,PC3880B,2017-09-5,9:36:04,0,Prince George's Park Terminal,A1,service_start,6,18.0
+2063,PC4068Z,2017-09-5,9:36:50,0,Prince George's Park Terminal,D2,service_start,4,29.38
+2031,PC3785T,2017-09-5,9:37:57,3,Prince George's Park Terminal,A2,service_start,5,25.75
+2058,PC4009U,2017-09-5,9:38:31,0,Kent Ridge Bus Terminal,C*,service_start,5,19.63
+2055,PC3995D,2017-09-5,9:39:29,0,Kent Ridge Bus Terminal,B1,service_start,5,16.73
+2075,PA2A,2017-09-5,9:39:52,27,PGPR,A1E,service_start,7,13.77
+2077,PC4051X,2017-09-5,9:40:54,0,Botanic Gardens MRT,BTC2,service_start,4,14.27
+2033,PC3925G,2017-09-5,9:41:24,0,Prince George's Park Terminal,A1,service_start,5,23.0
+2079,PC3849T,2017-09-5,9:42:52,2,Prince George's Park Terminal,D2,service_start,5,27.0
+2032,PC3876P,2017-09-5,9:43:16,14,BIZ2,B2,service_start,6,16.0
+2038,PC3940L,2017-09-5,9:45:42,0,Prince George's Park Terminal,A1,service_start,6,21.8
+2047,PC3787M,2017-09-5,9:46:54,0,Opp HSSML,D1,service_start,6,21.73
+2052,PC4032B,2017-09-5,9:46:56,6,Prince George's Park Terminal,A2,service_start,6,21.62
+2043,PC4038K,2017-09-5,9:48:31,0,Prince George's Park Terminal,D2,service_start,5,26.0
+2028,PA9442D,2017-09-5,9:50:31,0,Kent Ridge Bus Terminal,C*,service_start,6,19.0
+2024,PC3947T,2017-09-5,9:51:11,0,Prince George's Park Terminal,A1,service_start,6,19.0
+2129,PC3867R,2017-09-5,9:53:36,3,Prince George's Park Terminal,A2,service_start,6,21.0
+2050,PA33K,2017-09-5,9:54:13,0,Opp HSSML,D1,service_start,6,26.0
+2054,PC3989Y,2017-09-5,9:55:11,0,Prince George's Park Terminal,D2,service_start,5,27.0
+2055,PC3995D,2017-09-5,9:56:14,0,BIZ2,B2,service_start,6,29.93
+2062,PC3931M,2017-09-5,9:59:52,0,Prince George's Park Terminal,A1,service_start,5,19.97
+2027,PC3972U,2017-09-5,10:00:25,6,Opp HSSML,D1,service_start,6,21.0
+2042,PC3738E,2017-09-5,10:02:31,5,Prince George's Park Terminal,A2,service_start,6,21.67
+2102,PC3769R,2017-09-5,10:03:53,0,Prince George's Park Terminal,D2,service_start,5,23.27
+2078,PC3906L,2017-09-5,10:03:56,0,Kent Ridge Bus Terminal,BTC1,service_start,3,25.97
+2038,PC3940L,2017-09-5,10:09:23,15,Kent Ridge MRT,A1-LDM-0.7142857142857143,service_start,7,56.0
+2025,PC3957P,2017-09-5,10:09:42,0,Prince George's Park Terminal,A1,service_start,6,20.38
+2031,PC3785T,2017-09-5,10:11:38,6,Prince George's Park Terminal,A2,service_start,6,18.0
+2023,PC3983M,2017-09-5,10:11:47,0,Botanic Gardens MRT,BTC2,service_start,6,12.0
+2058,PC4009U,2017-09-5,10:12:41,3,Kent Ridge Bus Terminal,C,service_start,6,13.58
+2063,PC4068Z,2017-09-5,10:14:32,0,Prince George's Park Terminal,D2,service_start,5,23.62
+2047,PC3787M,2017-09-5,10:19:47,0,Opp HSSML,D1,service_start,7,20.63
+2033,PC3925G,2017-09-5,10:20:42,0,Prince George's Park Terminal,A1,service_start,6,17.48
+2028,PA9442D,2017-09-5,10:20:49,0,Kent Ridge Bus Terminal,C,service_start,7,14.0
+2074,PC3880B,2017-09-5,10:20:50,0,Kent Ridge Bus Terminal,B1,service_start,7,10.68
+2129,PC3867R,2017-09-5,10:22:20,1,Prince George's Park Terminal,A2,service_start,7,20.82
+2043,PC4038K,2017-09-5,10:23:54,0,Prince George's Park Terminal,D2,service_start,6,23.23
+2062,PC3931M,2017-09-5,10:29:25,0,Prince George's Park Terminal,A1,service_start,6,20.0
+2027,PC3972U,2017-09-5,10:30:41,0,Opp HSSML,D1,service_start,7,20.7
+2042,PC3738E,2017-09-5,10:31:41,5,Prince George's Park Terminal,A2,service_start,7,23.68
+2029,PC3763G,2017-09-5,10:32:09,0,Kent Ridge Bus Terminal,BTC1,service_start,2,30.0
+2054,PC3989Y,2017-09-5,10:34:04,0,Prince George's Park Terminal,D2,service_start,6,23.0
+2078,PC3906L,2017-09-5,10:37:29,0,Botanic Gardens MRT,BTC2,service_start,4,5.58
+2058,PC4009U,2017-09-5,10:38:00,0,Kent Ridge Bus Terminal,C,service_start,7,15.0
+2025,PC3957P,2017-09-5,10:40:24,0,Prince George's Park Terminal,A1,service_start,7,23.0
+2055,PC3995D,2017-09-5,10:40:25,0,Kent Ridge Bus Terminal,B1,service_start,7,10.78
+2031,PC3785T,2017-09-5,10:41:56,4,Prince George's Park Terminal,A2,service_start,7,19.75
+2074,PC3880B,2017-09-5,10:43:01,16,BIZ2,B2,service_start,8,12.0
+2102,PC3769R,2017-09-5,10:43:42,0,Prince George's Park Terminal,D2,service_start,6,25.0
+2028,PA9442D,2017-09-5,10:47:52,0,Kent Ridge Bus Terminal,C,service_start,8,16.55
+2033,PC3925G,2017-09-5,10:50:52,0,Prince George's Park Terminal,A1,service_start,7,21.97
+2129,PC3867R,2017-09-5,10:52:15,0,Prince George's Park Terminal,A2,service_start,8,20.0
+2047,PC3787M,2017-09-5,10:52:38,0,Opp HSSML,D1,service_start,8,25.0
+2063,PC4068Z,2017-09-5,10:54:17,0,Prince George's Park Terminal,D2,service_start,6,26.0
+2062,PC3931M,2017-09-5,10:58:52,0,Prince George's Park Terminal,A1,service_start,7,19.8
+2027,PC3972U,2017-09-5,11:00:20,0,Opp HSSML,D1,service_start,8,20.0
+2042,PC3738E,2017-09-5,11:02:08,4,Prince George's Park Terminal,A2,service_start,8,21.98
+2077,PC4051X,2017-09-5,11:04:34,0,Kent Ridge Bus Terminal,BTC1,service_start,5,29.0
+2058,PC4009U,2017-09-5,11:07:53,0,Kent Ridge Bus Terminal,C,service_start,8,17.83
+2029,PC3763G,2017-09-5,11:09:00,3,Botanic Gardens MRT,BTC2,service_start,3,14.0
+2060,PC4071M,2017-09-5,11:10:07,0,Opp HSSML,D1,service_start,6,21.0
+2025,PC3957P,2017-09-5,11:10:46,0,Prince George's Park Terminal,A1,service_start,8,22.0
+2031,PC3785T,2017-09-5,11:11:22,5,Prince George's Park Terminal,A2,service_start,8,18.0
+2038,PC3940L,2017-09-5,11:14:16,0,Prince George's Park Terminal,A1,service_start,8,18.83
+2043,PC4038K,2017-09-5,11:14:45,0,Prince George's Park Terminal,D2,service_start,7,23.35
+2032,PC3876P,2017-09-5,11:16:35,0,Kent Ridge Bus Terminal,B1,service_start,7,13.0
+2074,PC3880B,2017-09-5,11:16:43,0,Kent Ridge Bus Terminal,C,service_start,9,13.75
+2052,PC4032B,2017-09-5,11:17:27,6,Prince George's Park Terminal,A2,service_start,7,18.72
+2079,PC3849T,2017-09-5,11:19:37,0,Prince George's Park Terminal,D2,service_start,6,23.0
+2024,PC3947T,2017-09-5,11:22:02,0,Prince George's Park Terminal,A1,service_start,7,18.0
+2129,PC3867R,2017-09-5,11:23:21,6,Prince George's Park Terminal,A2,service_start,9,19.0
+2047,PC3787M,2017-09-5,11:23:23,0,Opp HSSML,D1,service_start,9,23.0
+2075,PA2A,2017-09-5,11:26:55,0,Prince George's Park Terminal,D2,service_start,8,23.95
+2033,PC3925G,2017-09-5,11:27:45,0,Prince George's Park Terminal,A1,service_start,8,16.48
+2027,PC3972U,2017-09-5,11:29:10,0,Opp HSSML,D1,service_start,9,24.0
+2102,PC3769R,2017-09-5,11:31:36,0,Prince George's Park Terminal,D2,service_start,7,29.82
+2023,PC3983M,2017-09-5,11:31:45,0,Kent Ridge Bus Terminal,BTC1,service_start,7,30.62
+2062,PC3931M,2017-09-5,11:32:29,0,Prince George's Park Terminal,A1,service_start,8,20.0
+2042,PC3738E,2017-09-5,11:36:04,3,Prince George's Park Terminal,A2,service_start,9,26.0
+2058,PC4009U,2017-09-5,11:36:06,2,Kent Ridge Bus Terminal,C,service_start,9,21.0
+2050,PA33K,2017-09-5,11:36:37,0,Opp HSSML,D1,service_start,7,28.93
+2063,PC4068Z,2017-09-5,11:38:06,1,Prince George's Park Terminal,D2,service_start,7,31.0
+2067,PA9772B,2017-09-5,11:38:54,0,Kent Ridge Bus Terminal,B1,service_start,1,16.45
+2060,PC4071M,2017-09-5,11:39:35,0,Opp HSSML,D1,service_start,7,26.0
+2025,PC3957P,2017-09-5,11:40:31,1,Prince George's Park Terminal,A1,service_start,9,24.0
+2077,PC4051X,2017-09-5,11:41:07,0,Botanic Gardens MRT,BTC2,service_start,6,12.0
+2031,PC3785T,2017-09-5,11:41:36,4,Prince George's Park Terminal,A2,service_start,9,25.7
+2032,PC3876P,2017-09-5,11:42:28,18,BIZ2,B2,service_start,8,17.95
+2038,PC3940L,2017-09-5,11:47:02,0,Prince George's Park Terminal,A1,service_start,9,24.0
+2074,PC3880B,2017-09-5,11:47:32,0,Kent Ridge Bus Terminal,C,service_start,10,20.0
+2052,PC4032B,2017-09-5,11:47:55,3,Prince George's Park Terminal,A2,service_start,8,23.45
+2043,PC4038K,2017-09-5,11:49:31,1,Prince George's Park Terminal,D2,service_start,8,30.55
+2024,PC3947T,2017-09-5,11:51:19,0,Prince George's Park Terminal,A1,service_start,8,21.0
+2047,PC3787M,2017-09-5,11:54:00,0,Opp HSSML,D1,service_start,10,23.0
+2129,PC3867R,2017-09-5,11:54:35,2,Prince George's Park Terminal,A2,service_start,10,23.0
+2079,PC3849T,2017-09-5,11:57:23,0,Prince George's Park Terminal,D2,service_start,7,33.0
+2033,PC3925G,2017-09-5,11:58:15,0,Prince George's Park Terminal,A1,service_start,9,23.0
+2027,PC3972U,2017-09-5,11:59:23,0,Opp HSSML,D1,service_start,10,22.92
+2078,PC3906L,2017-09-5,12:03:33,0,Kent Ridge Bus Terminal,BTC1,service_start,5,27.65
+2062,PC3931M,2017-09-5,12:03:40,0,Prince George's Park Terminal,A1,service_start,9,18.0
+2075,PA2A,2017-09-5,12:04:00,0,Prince George's Park Terminal,D2,service_start,9,26.0
+2042,PC3738E,2017-09-5,12:05:26,5,Prince George's Park Terminal,A2,service_start,10,22.0
+2050,PA33K,2017-09-5,12:07:20,0,Opp HSSML,D1,service_start,8,19.0
+2058,PC4009U,2017-09-5,12:07:27,0,Kent Ridge Bus Terminal,C,service_start,10,14.58
+2102,PC3769R,2017-09-5,12:09:02,0,Prince George's Park Terminal,D2,service_start,8,24.98
+2060,PC4071M,2017-09-5,12:09:38,3,Opp HSSML,D1,service_start,8,20.0
+2029,PC3763G,2017-09-5,12:09:49,1,Prince George's Park Terminal,A1,service_start,4,18.0
+2023,PC3983M,2017-09-5,12:10:34,2,Botanic Gardens MRT,BTC2,service_start,8,14.0
+2031,PC3785T,2017-09-5,12:11:01,4,Prince George's Park Terminal,A2,service_start,10,19.0
+2067,PA9772B,2017-09-5,12:13:38,11,BIZ2,B2,service_start,2,14.0
+2063,PC4068Z,2017-09-5,12:15:56,0,Prince George's Park Terminal,D2,service_start,8,25.18
+2052,PC4032B,2017-09-5,12:16:30,7,Prince George's Park Terminal,A2,service_start,9,18.82
+2038,PC3940L,2017-09-5,12:17:21,0,Prince George's Park Terminal,A1,service_start,10,17.78
+2028,PA9442D,2017-09-5,12:17:37,1,Kent Ridge Bus Terminal,C,service_start,9,16.0
+2032,PC3876P,2017-09-5,12:21:57,0,Kent Ridge Bus Terminal,B1,service_start,9,14.97
+2047,PC3787M,2017-09-5,12:22:53,0,Opp HSSML,D1,service_start,11,19.9
+2024,PC3947T,2017-09-5,12:23:32,0,Prince George's Park Terminal,A1,service_start,9,17.77
+2129,PC3867R,2017-09-5,12:24:17,2,Prince George's Park Terminal,A2,service_start,11,21.88
+2077,PC4051X,2017-09-5,12:24:20,0,Kent Ridge Bus Terminal,BTC1,service_start,7,28.0
+2043,PC4038K,2017-09-5,12:25:14,2,Prince George's Park Terminal,D2,service_start,9,24.0
+2027,PC3972U,2017-09-5,12:29:01,0,Opp HSSML,D1,service_start,11,22.0
+2033,PC3925G,2017-09-5,12:29:50,0,Prince George's Park Terminal,A1,service_start,10,18.6
+2062,PC3931M,2017-09-5,12:33:24,0,Prince George's Park Terminal,A1,service_start,10,17.0
+2079,PC3849T,2017-09-5,12:34:01,0,Prince George's Park Terminal,D2,service_start,8,23.0
+2058,PC4009U,2017-09-5,12:34:42,0,Kent Ridge Bus Terminal,C,service_start,11,15.62
+2050,PA33K,2017-09-5,12:35:19,0,Opp HSSML,D1,service_start,9,21.0
+2042,PC3738E,2017-09-5,12:36:28,7,Prince George's Park Terminal,A2,service_start,11,19.65
+2078,PC3906L,2017-09-5,12:37:59,0,Botanic Gardens MRT,BTC2,service_start,6,13.68
+2054,PC3989Y,2017-09-5,12:38:37,1,Prince George's Park Terminal,D2,service_start,7,24.65
+2074,PC3880B,2017-09-5,12:39:53,0,Kent Ridge Bus Terminal,B1,service_start,11,13.35
+2025,PC3957P,2017-09-5,12:40:18,0,Prince George's Park Terminal,A1,service_start,10,20.0
+2029,PC3763G,2017-09-5,12:41:10,5,Prince George's Park Terminal,A2,service_start,5,20.0
+2060,PC4071M,2017-09-5,12:41:17,0,Opp HSSML,D1,service_start,9,20.0
+2032,PC3876P,2017-09-5,12:43:49,16,BIZ2,B2,service_start,10,12.32
+2023,PC3983M,2017-09-5,12:43:53,0,Kent Ridge Bus Terminal,BTC1,service_start,9,27.83
+2075,PA2A,2017-09-5,12:45:47,0,Prince George's Park Terminal,D2,service_start,10,25.0
+2038,PC3940L,2017-09-5,12:46:57,0,Prince George's Park Terminal,A1,service_start,11,20.8
+2052,PC4032B,2017-09-5,12:47:32,7,Prince George's Park Terminal,A2,service_start,10,18.93
+2028,PA9442D,2017-09-5,12:47:43,0,Kent Ridge Bus Terminal,C,service_start,10,15.68
+2063,PC4068Z,2017-09-5,12:51:10,0,Prince George's Park Terminal,D2,service_start,9,21.83
+2024,PC3947T,2017-09-5,12:52:00,0,Prince George's Park Terminal,A1,service_start,10,16.0
+2047,PC3787M,2017-09-5,12:52:16,7,Opp HSSML,D1,service_start,12,22.0
+2129,PC3867R,2017-09-5,12:53:39,1,Prince George's Park Terminal,A2,service_start,12,25.0
+2033,PC3925G,2017-09-5,12:57:44,0,Prince George's Park Terminal,A1,service_start,11,18.68
+2077,PC4051X,2017-09-5,12:58:50,0,Botanic Gardens MRT,BTC2,service_start,8,14.92
+2027,PC3972U,2017-09-5,12:59:22,0,Opp HSSML,D1,service_start,12,21.0
+2043,PC4038K,2017-09-5,13:02:17,0,Prince George's Park Terminal,D2,service_start,10,25.0
+2062,PC3931M,2017-09-5,13:03:02,0,Prince George's Park Terminal,A1,service_start,11,19.0
+2078,PC3906L,2017-09-5,13:04:38,0,Kent Ridge Bus Terminal,BTC1,service_start,7,30.0
+2042,PC3738E,2017-09-5,13:05:07,4,Prince George's Park Terminal,A2,service_start,12,21.93
+2050,PA33K,2017-09-5,13:06:11,0,Opp HSSML,D1,service_start,10,22.83
+2058,PC4009U,2017-09-5,13:07:34,2,Kent Ridge Bus Terminal,C,service_start,12,13.0
+2079,PC3849T,2017-09-5,13:08:18,0,Prince George's Park Terminal,D2,service_start,9,21.87
+2067,PA9772B,2017-09-5,13:10:15,1,Prince George's Park Terminal,A1,service_start,3,18.0
+2060,PC4071M,2017-09-5,13:10:29,0,Opp HSSML,D1,service_start,10,19.0
+2031,PC3785T,2017-09-5,13:11:30,1,Prince George's Park Terminal,A2,service_start,11,19.98
+2074,PC3880B,2017-09-5,13:13:55,15,BIZ2,B2,service_start,12,12.18
+2054,PC3989Y,2017-09-5,13:14:06,1,Prince George's Park Terminal,D2,service_start,8,22.0
+2038,PC3940L,2017-09-5,13:14:57,0,Prince George's Park Terminal,A1,service_start,12,18.18
+2052,PC4032B,2017-09-5,13:16:38,0,Prince George's Park Terminal,A2,service_start,11,17.72
+2028,PA9442D,2017-09-5,13:17:54,1,Kent Ridge Bus Terminal,C,service_start,11,14.8
+2075,PA2A,2017-09-5,13:20:05,0,Prince George's Park Terminal,D2,service_start,11,26.0
+2023,PC3983M,2017-09-5,13:20:45,0,Botanic Gardens MRT,BTC2,service_start,10,14.65
+2024,PC3947T,2017-09-5,13:21:45,1,Prince George's Park Terminal,A1,service_start,11,17.68
+2032,PC3876P,2017-09-5,13:22:14,0,Kent Ridge Bus Terminal,B1,service_start,11,15.0
+2077,PC4051X,2017-09-5,13:22:15,0,Kent Ridge Bus Terminal,BTC1,service_start,9,28.0
+2129,PC3867R,2017-09-5,13:24:34,0,Prince George's Park Terminal,A2,service_start,13,23.65
+2047,PC3787M,2017-09-5,13:24:36,2,Opp HSSML,D1,service_start,13,24.82
+2063,PC4068Z,2017-09-5,13:27:43,0,Prince George's Park Terminal,D2,service_start,10,26.7
+2033,PC3925G,2017-09-5,13:27:58,0,Prince George's Park Terminal,A1,service_start,12,19.5
+2027,PC3972U,2017-09-5,13:29:00,0,Opp HSSML,D1,service_start,13,22.0
+2062,PC3931M,2017-09-5,13:34:16,0,Prince George's Park Terminal,A1,service_start,12,22.8
+2042,PC3738E,2017-09-5,13:36:17,5,Prince George's Park Terminal,A2,service_start,13,25.0
+2058,PC4009U,2017-09-5,13:37:39,0,Kent Ridge Bus Terminal,C,service_start,13,18.8
+2043,PC4038K,2017-09-5,13:38:15,1,Prince George's Park Terminal,D2,service_start,11,28.0
+2067,PA9772B,2017-09-5,13:39:27,0,Prince George's Park Terminal,A1,service_start,4,20.0
+2055,PC3995D,2017-09-5,13:39:30,0,Kent Ridge Bus Terminal,B1,service_start,8,16.62
+2078,PC3906L,2017-09-5,13:39:51,0,Botanic Gardens MRT,BTC2,service_start,8,14.72
+2060,PC4071M,2017-09-5,13:41:35,9,Opp HSSML,D1,service_start,11,23.83
+2031,PC3785T,2017-09-5,13:43:32,5,Prince George's Park Terminal,A2,service_start,12,26.62
+2079,PC3849T,2017-09-5,13:44:35,0,Prince George's Park Terminal,D2,service_start,10,28.0
+2023,PC3983M,2017-09-5,13:46:03,0,Kent Ridge Bus Terminal,BTC1,service_start,11,26.0
+2038,PC3940L,2017-09-5,13:46:40,0,Prince George's Park Terminal,A1,service_start,13,20.68
+2052,PC4032B,2017-09-5,13:46:56,0,Prince George's Park Terminal,A2,service_start,12,25.7
+2028,PA9442D,2017-09-5,13:47:04,0,Kent Ridge Bus Terminal,C,service_start,12,18.0
+2029,PC3763G,2017-09-5,13:47:46,0,University Town,UT-FoS,service_start,6,10.78
+2054,PC3989Y,2017-09-5,13:50:10,0,Prince George's Park Terminal,D2,service_start,9,24.0
+2024,PC3947T,2017-09-5,13:53:17,0,Prince George's Park Terminal,A1,service_start,12,20.0
+2129,PC3867R,2017-09-5,13:54:57,0,Prince George's Park Terminal,A2,service_start,14,26.8
+2047,PC3787M,2017-09-5,13:55:06,0,Opp HSSML,D1,service_start,14,23.0
+2102,PC3769R,2017-09-5,13:55:52,0,Prince George's Park Terminal,D2,service_start,9,23.57
+2077,PC4051X,2017-09-5,13:59:25,0,Botanic Gardens MRT,BTC2,service_start,10,14.0
+2027,PC3972U,2017-09-5,14:00:24,0,Opp HSSML,D1,service_start,14,21.0
+2078,PC3906L,2017-09-5,14:02:40,0,Kent Ridge Bus Terminal,BTC1,service_start,9,27.98
+2033,PC3925G,2017-09-5,14:02:53,4,Prince George's Park Terminal,A1,service_start,13,20.6
+2063,PC4068Z,2017-09-5,14:04:31,0,Prince George's Park Terminal,D2,service_start,11,24.58
+2074,PC3880B,2017-09-5,14:06:07,0,Kent Ridge Bus Terminal,C,service_start,13,17.0
+2067,PA9772B,2017-09-5,14:10:25,0,Prince George's Park Terminal,A1,service_start,5,19.0
+2050,PA33K,2017-09-5,14:11:05,0,Opp HSSML,D1,service_start,11,21.0
+2031,PC3785T,2017-09-5,14:11:55,0,Prince George's Park Terminal,A2,service_start,13,16.97
+2055,PC3995D,2017-09-5,14:14:35,20,BIZ2,B2,service_start,9,11.7
+2028,PA9442D,2017-09-5,14:18:03,0,Kent Ridge Bus Terminal,C,service_start,13,14.0
+2038,PC3940L,2017-09-5,14:19:39,0,Prince George's Park Terminal,A1,service_start,14,17.93
+2023,PC3983M,2017-09-5,14:20:12,0,Botanic Gardens MRT,BTC2,service_start,12,14.82
+2032,PC3876P,2017-09-5,14:20:15,0,Kent Ridge Bus Terminal,B1,service_start,12,13.0
+2052,PC4032B,2017-09-5,14:24:12,5,Prince George's Park Terminal,A2,service_start,13,21.83
+2054,PC3989Y,2017-09-5,14:24:56,0,Prince George's Park Terminal,D2,service_start,10,23.38
+2027,PC3972U,2017-09-5,14:30:30,0,Opp HSSML,D1,service_start,15,19.0
+2033,PC3925G,2017-09-5,14:30:56,0,Prince George's Park Terminal,A1,service_start,14,20.7
+2077,PC4051X,2017-09-5,14:32:59,0,Kent Ridge Bus Terminal,BTC1,service_start,11,28.35
+2079,PC3849T,2017-09-5,14:33:41,0,Prince George's Park Terminal,D2,service_start,11,22.83
+2074,PC3880B,2017-09-5,14:37:00,0,Kent Ridge Bus Terminal,C,service_start,14,14.0
+2078,PC3906L,2017-09-5,14:38:34,0,Botanic Gardens MRT,BTC2,service_start,10,13.83
+2055,PC3995D,2017-09-5,14:40:38,0,Kent Ridge Bus Terminal,B1,service_start,10,10.78
+2050,PA33K,2017-09-5,14:40:56,7,Opp HSSML,D1,service_start,12,21.62
+2067,PA9772B,2017-09-5,14:41:00,1,Prince George's Park Terminal,A1,service_start,6,20.0
+2031,PC3785T,2017-09-5,14:41:39,1,Prince George's Park Terminal,A2,service_start,14,19.7
+2032,PC3876P,2017-09-5,14:42:40,18,BIZ2,B2,service_start,13,12.87
+2063,PC4068Z,2017-09-5,14:43:03,0,Prince George's Park Terminal,D2,service_start,12,22.0
+2028,PA9442D,2017-09-5,14:45:35,0,Kent Ridge Bus Terminal,C,service_start,14,17.0
+2038,PC3940L,2017-09-5,14:49:31,0,Prince George's Park Terminal,A1,service_start,15,17.7
+2052,PC4032B,2017-09-5,14:53:16,0,Prince George's Park Terminal,A2,service_start,14,21.0
+2033,PC3925G,2017-09-5,14:59:28,0,Prince George's Park Terminal,A1,service_start,15,17.0
+2027,PC3972U,2017-09-5,15:00:14,3,Opp HSSML,D1,service_start,16,18.78
+2054,PC3989Y,2017-09-5,15:04:03,0,Prince George's Park Terminal,D2,service_start,11,23.0
+2078,PC3906L,2017-09-5,15:05:09,0,Kent Ridge Bus Terminal,BTC1,service_start,11,28.88
+2058,PC4009U,2017-09-5,15:05:11,0,Kent Ridge Bus Terminal,C,service_start,14,14.0
+2077,PC4051X,2017-09-5,15:09:02,0,Botanic Gardens MRT,BTC2,service_start,12,15.0
+2060,PC4071M,2017-09-5,15:10:30,7,Opp HSSML,D1,service_start,12,21.0
+2042,PC3738E,2017-09-5,15:10:40,3,Prince George's Park Terminal,A2,service_start,14,19.0
+2055,PC3995D,2017-09-5,15:13:22,25,BIZ2,B2,service_start,11,12.0
+2043,PC4038K,2017-09-5,15:14:45,0,Prince George's Park Terminal,D2,service_start,12,25.92
+2028,PA9442D,2017-09-5,15:14:47,0,Kent Ridge Bus Terminal,C,service_start,15,16.0
+2067,PA9772B,2017-09-5,15:15:58,0,Prince George's Park Terminal,A1,service_start,7,19.65
+2050,PA33K,2017-09-5,15:16:24,0,Opp HSSML,D1,service_start,13,22.0
+2031,PC3785T,2017-09-5,15:16:38,4,Prince George's Park Terminal,A2,service_start,15,19.83
+2032,PC3876P,2017-09-5,15:18:41,0,Kent Ridge Bus Terminal,B1,service_start,14,13.0
+2079,PC3849T,2017-09-5,15:19:54,3,Prince George's Park Terminal,D2,service_start,12,22.62
+2038,PC3940L,2017-09-5,15:21:24,0,Prince George's Park Terminal,A1,service_start,16,14.0
+2052,PC4032B,2017-09-5,15:23:45,7,Prince George's Park Terminal,A2,service_start,15,16.62
+2063,PC4068Z,2017-09-5,15:26:43,0,Prince George's Park Terminal,D2,service_start,13,23.92
+2024,PC3947T,2017-09-5,15:29:06,0,Prince George's Park Terminal,A1,service_start,13,16.0
+2047,PC3787M,2017-09-5,15:29:44,0,Opp HSSML,D1,service_start,15,22.68
+2129,PC3867R,2017-09-5,15:30:09,0,Prince George's Park Terminal,A2,service_start,15,23.0
+2102,PC3769R,2017-09-5,15:31:37,0,Prince George's Park Terminal,D2,service_start,10,24.38
+2033,PC3925G,2017-09-5,15:33:38,0,Prince George's Park Terminal,A1,service_start,16,19.95
+2077,PC4051X,2017-09-5,15:34:10,0,Kent Ridge Bus Terminal,BTC1,service_start,13,27.0
+2027,PC3972U,2017-09-5,15:35:53,0,Opp HSSML,D1,service_start,17,27.0
+2058,PC4009U,2017-09-5,15:36:00,0,Kent Ridge Bus Terminal,C,service_start,15,14.0
+2060,PC4071M,2017-09-5,15:39:47,5,Opp HSSML,D1,service_start,13,21.65
+2042,PC3738E,2017-09-5,15:40:11,3,Prince George's Park Terminal,A2,service_start,15,24.0
+2055,PC3995D,2017-09-5,15:40:48,4,Kent Ridge Bus Terminal,B1,service_start,12,16.0
+2078,PC3906L,2017-09-5,15:41:01,0,Botanic Gardens MRT,BTC2,service_start,12,14.0
+2032,PC3876P,2017-09-5,15:42:49,0,BIZ2,B2,service_start,15,15.92
+2054,PC3989Y,2017-09-5,15:45:42,0,Prince George's Park Terminal,D2,service_start,12,26.0
+2067,PA9772B,2017-09-5,15:46:56,1,Prince George's Park Terminal,A1,service_start,8,21.15
+2050,PA33K,2017-09-5,15:47:22,6,Opp HSSML,D1,service_start,14,24.77
+2031,PC3785T,2017-09-5,15:47:25,0,Prince George's Park Terminal,A2,service_start,16,20.0
+2028,PA9442D,2017-09-5,15:49:28,0,Kent Ridge Bus Terminal,C,service_start,16,15.88
+2043,PC4038K,2017-09-5,15:49:52,0,Prince George's Park Terminal,D2,service_start,13,24.25
+2038,PC3940L,2017-09-5,15:52:03,0,Prince George's Park Terminal,A1,service_start,17,17.0
+2052,PC4032B,2017-09-5,15:52:42,5,Prince George's Park Terminal,A2,service_start,16,21.0
+2079,PC3849T,2017-09-5,15:56:13,0,Prince George's Park Terminal,D2,service_start,13,24.0
+2024,PC3947T,2017-09-5,15:59:38,0,Prince George's Park Terminal,A1,service_start,14,17.9
+2047,PC3787M,2017-09-5,16:00:18,0,Opp HSSML,D1,service_start,16,18.7
+2129,PC3867R,2017-09-5,16:02:17,0,Prince George's Park Terminal,A2,service_start,16,22.0
+2078,PC3906L,2017-09-5,16:03:02,0,Kent Ridge Bus Terminal,BTC1,service_start,13,27.0
+2102,PC3769R,2017-09-5,16:03:42,0,Prince George's Park Terminal,D2,service_start,11,23.0
+2058,PC4009U,2017-09-5,16:05:55,0,Kent Ridge Bus Terminal,C,service_start,16,17.55
+2077,PC4051X,2017-09-5,16:07:42,0,Botanic Gardens MRT,BTC2,service_start,14,16.82
+2067,PA9772B,2017-09-5,16:09:58,13,Kent Ridge MRT,A1-LDM-0.7142857142857143,service_start,9,56.65
+2042,PC3738E,2017-09-5,16:11:49,0,Prince George's Park Terminal,A2,service_start,16,22.33
+2060,PC4071M,2017-09-5,16:11:49,10,Opp HSSML,D1,service_start,14,21.33
+2055,PC3995D,2017-09-5,16:13:09,18,BIZ2,B2,service_start,13,13.0
+2028,PA9442D,2017-09-5,16:16:27,0,Kent Ridge Bus Terminal,C,service_start,17,15.65
+2032,PC3876P,2017-09-5,16:17:55,1,Kent Ridge Bus Terminal,B1,service_start,16,11.9
+2050,PA33K,2017-09-5,16:20:01,0,Opp HSSML,D1,service_start,15,19.0
+2038,PC3940L,2017-09-5,16:20:29,0,Prince George's Park Terminal,A1,service_start,18,17.52
+2052,PC4032B,2017-09-5,16:21:41,7,Prince George's Park Terminal,A2,service_start,17,18.78
+2043,PC4038K,2017-09-5,16:23:41,0,Prince George's Park Terminal,D2,service_start,14,22.98
+2047,PC3787M,2017-09-5,16:30:03,0,Opp HSSML,D1,service_start,17,20.95
+2024,PC3947T,2017-09-5,16:30:23,0,Prince George's Park Terminal,A1,service_start,15,16.0
+2129,PC3867R,2017-09-5,16:32:40,2,Prince George's Park Terminal,A2,service_start,17,23.37
+2079,PC3849T,2017-09-5,16:33:41,0,Prince George's Park Terminal,D2,service_start,14,24.68
+2074,PC3880B,2017-09-5,16:33:58,0,Kent Ridge Bus Terminal,BTC1,service_start,15,27.5
+2058,PC4009U,2017-09-5,16:38:04,0,Kent Ridge Bus Terminal,C,service_start,17,15.0
+2055,PC3995D,2017-09-5,16:38:06,0,Kent Ridge Bus Terminal,B1,service_start,14,11.0
+2062,PC3931M,2017-09-5,16:39:21,0,Prince George's Park Terminal,A1,service_start,13,18.0
+2060,PC4071M,2017-09-5,16:40:02,0,Opp HSSML,D1,service_start,15,21.0
+2078,PC3906L,2017-09-5,16:40:55,0,Botanic Gardens MRT,BTC2,service_start,14,12.68
+2042,PC3738E,2017-09-5,16:42:32,0,Prince George's Park Terminal,A2,service_start,17,25.0
+2032,PC3876P,2017-09-5,16:43:22,16,BIZ2,B2,service_start,17,14.82
+2102,PC3769R,2017-09-5,16:45:09,0,Prince George's Park Terminal,D2,service_start,12,24.95
+2028,PA9442D,2017-09-5,16:46:48,0,Kent Ridge Bus Terminal,C,service_start,18,13.55
+2050,PA33K,2017-09-5,16:50:23,0,Opp HSSML,D1,service_start,16,22.7
+2038,PC3940L,2017-09-5,16:51:29,0,Prince George's Park Terminal,A1,service_start,19,18.0
+2052,PC4032B,2017-09-5,16:52:12,7,Prince George's Park Terminal,A2,service_start,18,20.0
+2048,PC4019R,2017-09-5,16:54:54,0,Prince George's Park Terminal,D2,service_start,1,24.28
+2047,PC3787M,2017-09-5,17:00:23,0,Opp HSSML,D1,service_start,18,24.0
+2024,PC3947T,2017-09-5,17:00:46,2,Prince George's Park Terminal,A1,service_start,16,18.0
+2043,PC4038K,2017-09-5,17:04:28,0,Prince George's Park Terminal,D2,service_start,15,29.53
+2129,PC3867R,2017-09-5,17:04:53,3,Prince George's Park Terminal,A2,service_start,18,23.2
+2078,PC3906L,2017-09-5,17:05:24,0,Kent Ridge Bus Terminal,BTC1,service_start,15,27.0
+2058,PC4009U,2017-09-5,17:06:17,0,Kent Ridge Bus Terminal,C,service_start,18,15.0
+2027,PC3972U,2017-09-5,17:09:57,0,Opp HSSML,D1,service_start,18,20.22
+2062,PC3931M,2017-09-5,17:10:44,0,Prince George's Park Terminal,A1,service_start,14,19.57
+2074,PC3880B,2017-09-5,17:11:41,0,Botanic Gardens MRT,BTC2,service_start,16,16.0
+2055,PC3995D,2017-09-5,17:12:10,19,BIZ2,B2,service_start,15,14.0
+2042,PC3738E,2017-09-5,17:12:36,5,Prince George's Park Terminal,A2,service_start,18,24.0
+2054,PC3989Y,2017-09-5,17:13:13,0,Prince George's Park Terminal,D2,service_start,13,26.83
+2060,PC4071M,2017-09-5,17:15:32,0,Opp HSSML,D1,service_start,16,20.57
+2031,PC3785T,2017-09-5,17:16:43,3,Prince George's Park Terminal,A2,service_start,17,20.0
+2032,PC3876P,2017-09-5,17:19:08,0,Kent Ridge Bus Terminal,B1,service_start,18,13.0
+2067,PA9772B,2017-09-5,17:20:29,0,Prince George's Park Terminal,A1,service_start,10,24.0
+2077,PC4051X,2017-09-5,17:22:42,0,Kent Ridge Bus Terminal,BTC1,service_start,15,29.58
+2033,PC3925G,2017-09-5,17:23:27,3,Prince George's Park Terminal,A2,service_start,17,27.0
+2102,PC3769R,2017-09-5,17:25:50,0,Prince George's Park Terminal,D2,service_start,13,32.53
+2052,PC4032B,2017-09-5,17:27:27,6,Prince George's Park Terminal,A2,service_start,19,26.0
+2047,PC3787M,2017-09-5,17:29:16,0,Opp HSSML,D1,service_start,19,23.9
+2038,PC3940L,2017-09-5,17:31:08,0,Prince George's Park Terminal,A1,service_start,20,24.0
+2048,PC4019R,2017-09-5,17:32:25,0,Prince George's Park Terminal,D2,service_start,2,32.0
+2058,PC4009U,2017-09-5,17:34:50,0,Kent Ridge Bus Terminal,C,service_start,19,19.72
+2129,PC3867R,2017-09-5,17:35:01,5,Prince George's Park Terminal,A2,service_start,19,30.0
+2029,PC3763G,2017-09-5,17:35:47,24,Ventus (Opp LT13),A2E,service_start,7,7.8
+2024,PC3947T,2017-09-5,17:37:01,0,Prince George's Park Terminal,A1,service_start,17,22.0
+2050,PA33K,2017-09-5,17:37:23,0,Opp HSSML,D1,service_start,17,28.0
+2078,PC3906L,2017-09-5,17:38:16,0,Botanic Gardens MRT,BTC2,service_start,16,19.0
+2042,PC3738E,2017-09-5,17:38:33,1,Prince George's Park Terminal,A2,service_start,19,26.45
+2079,PC3849T,2017-09-5,17:39:17,0,Prince George's Park Terminal,D2,service_start,15,36.0
+2055,PC3995D,2017-09-5,17:40:37,0,Kent Ridge Bus Terminal,B1,service_start,16,15.0
+2027,PC3972U,2017-09-5,17:41:02,3,Opp HSSML,D1,service_start,19,26.0
+2032,PC3876P,2017-09-5,17:42:53,16,BIZ2,B2,service_start,19,18.85
+2074,PC3880B,2017-09-5,17:43:20,22,Ventus (Opp LT13),A2E,service_start,17,7.0
+2062,PC3931M,2017-09-5,17:44:29,0,Prince George's Park Terminal,A1,service_start,15,21.85
+2023,PC3983M,2017-09-5,17:44:32,0,Kent Ridge Bus Terminal,BTC1,service_start,13,30.0
+2043,PC4038K,2017-09-5,17:45:38,0,Prince George's Park Terminal,D2,service_start,16,8.88
+2031,PC3785T,2017-09-5,17:46:18,8,Prince George's Park Terminal,A2,service_start,18,26.0
+2028,PA9442D,2017-09-5,17:47:02,1,Kent Ridge Bus Terminal,C,service_start,19,23.0
+2060,PC4071M,2017-09-5,17:47:19,1,Opp HSSML,D1,service_start,17,22.0
+2029,PC3763G,2017-09-5,17:48:01,38,Prince George's Park Terminal,A2,service_start,8,59.0
+2054,PC3989Y,2017-09-5,17:50:18,0,Prince George's Park Terminal,D2,service_start,14,36.0
+2033,PC3925G,2017-09-5,17:51:47,6,Prince George's Park Terminal,A2,service_start,18,26.97
+2067,PA9772B,2017-09-5,17:52:44,0,Prince George's Park Terminal,A1,service_start,11,25.0
+2052,PC4032B,2017-09-5,17:58:22,7,Prince George's Park Terminal,A2,service_start,20,27.0
+2077,PC4051X,2017-09-5,18:00:04,0,Botanic Gardens MRT,BTC2,service_start,16,19.0
+2038,PC3940L,2017-09-5,18:00:46,0,Prince George's Park Terminal,A1,service_start,21,22.63
+2047,PC3787M,2017-09-5,18:00:48,4,Opp HSSML,D1,service_start,20,25.0
+2078,PC3906L,2017-09-5,18:01:48,0,Kent Ridge Bus Terminal,BTC1,service_start,17,35.58
+2102,PC3769R,2017-09-5,18:01:52,6,Prince George's Park Terminal,D2,service_start,14,30.35
+2058,PC4009U,2017-09-5,18:04:15,0,Kent Ridge Bus Terminal,C,service_start,20,23.0
+2024,PC3947T,2017-09-5,18:07:13,0,Prince George's Park Terminal,A1,service_start,18,21.0
+2129,PC3867R,2017-09-5,18:08:11,1,Prince George's Park Terminal,A2,service_start,20,27.0
+2048,PC4019R,2017-09-5,18:08:48,0,Prince George's Park Terminal,D2,service_start,3,32.23
+2055,PC3995D,2017-09-5,18:09:50,0,Car Park 11 (BIZ),B2,service_start,17,20.83
+2050,PA33K,2017-09-5,18:10:30,3,Opp HSSML,D1,service_start,18,24.0
+2042,PC3738E,2017-09-5,18:10:43,2,Prince George's Park Terminal,A2,service_start,20,24.85
+2027,PC3972U,2017-09-5,18:13:24,0,Opp HSSML,D1,service_start,20,22.0
+2031,PC3785T,2017-09-5,18:14:27,6,Prince George's Park Terminal,A2,service_start,19,24.0
+2028,PA9442D,2017-09-5,18:14:28,0,Kent Ridge Bus Terminal,C,service_start,20,24.0
+2062,PC3931M,2017-09-5,18:15:20,0,Prince George's Park Terminal,A1,service_start,16,24.0
+2060,PC4071M,2017-09-5,18:18:58,0,Opp HSSML,D1,service_start,18,19.85
+2079,PC3849T,2017-09-5,18:20:22,2,Prince George's Park Terminal,D2,service_start,16,29.9
+2032,PC3876P,2017-09-5,18:20:37,0,Kent Ridge Bus Terminal,B1,service_start,20,13.0
+2077,PC4051X,2017-09-5,18:21:18,0,Kent Ridge Bus Terminal,BTC1,service_start,17,34.82
+2033,PC3925G,2017-09-5,18:21:27,7,Prince George's Park Terminal,A2,service_start,19,22.0
+2023,PC3983M,2017-09-5,18:21:54,0,Botanic Gardens MRT,BTC2,service_start,14,16.35
+2067,PA9772B,2017-09-5,18:23:06,0,Prince George's Park Terminal,A1,service_start,12,23.0
+2074,PC3880B,2017-09-5,18:24:19,14,Ventus (Opp LT13),A2E-LDM-1.0,service_start,18,29.0
+2052,PC4032B,2017-09-5,18:26:45,0,Prince George's Park Terminal,A2,service_start,21,21.25
+2038,PC3940L,2017-09-5,18:29:36,0,Prince George's Park Terminal,A1,service_start,22,18.73
+2054,PC3989Y,2017-09-5,18:30:14,0,Prince George's Park Terminal,D2,service_start,15,26.0
+2047,PC3787M,2017-09-5,18:31:11,0,Opp HSSML,D1,service_start,21,20.0
+2058,PC4009U,2017-09-5,18:36:13,0,Kent Ridge Bus Terminal,C,service_start,21,17.0
+2129,PC3867R,2017-09-5,18:37:18,7,Prince George's Park Terminal,A2,service_start,21,22.0
+2050,PA33K,2017-09-5,18:37:42,0,Opp HSSML,D1,service_start,19,20.95
+2024,PC3947T,2017-09-5,18:38:09,1,Prince George's Park Terminal,A1,service_start,19,17.0
+2102,PC3769R,2017-09-5,18:38:39,0,Prince George's Park Terminal,D2,service_start,15,25.92
+2055,PC3995D,2017-09-5,18:39:35,0,Kent Ridge Bus Terminal,B1,service_start,18,12.0
+2042,PC3738E,2017-09-5,18:40:39,1,Prince George's Park Terminal,A2,service_start,21,22.43
+2027,PC3972U,2017-09-5,18:41:51,0,Opp HSSML,D1,service_start,21,19.23
+2032,PC3876P,2017-09-5,18:42:06,19,BIZ2,B2,service_start,21,13.0
+2062,PC3931M,2017-09-5,18:42:06,0,Prince George's Park Terminal,A1,service_start,17,18.0
+2048,PC4019R,2017-09-5,18:44:40,0,Prince George's Park Terminal,D2,service_start,4,25.35
+2078,PC3906L,2017-09-5,18:45:20,0,Botanic Gardens MRT,BTC2,service_start,18,17.8
+2023,PC3983M,2017-09-5,18:46:08,0,Kent Ridge Bus Terminal,BTC1,service_start,15,30.0
+2031,PC3785T,2017-09-5,18:46:14,0,Prince George's Park Terminal,A2,service_start,20,21.0
+2060,PC4071M,2017-09-5,18:46:48,2,Opp HSSML,D1,service_start,19,19.95
+2028,PA9442D,2017-09-5,18:46:57,1,Kent Ridge Bus Terminal,C,service_start,21,16.9
+2033,PC3925G,2017-09-5,18:52:27,4,Prince George's Park Terminal,A2,service_start,20,21.0
+2079,PC3849T,2017-09-5,18:53:22,0,Prince George's Park Terminal,D2,service_start,17,27.65
+2067,PA9772B,2017-09-5,18:54:31,0,Prince George's Park Terminal,A1,service_start,13,19.72
+2074,PC3880B,2017-09-5,18:55:34,3,Prince George's Park Terminal,A2E-LDM-1.25,service_start,19,16.92
+2043,PC4038K,2017-09-5,18:58:08,0,Prince George's Park Terminal,D2,service_start,17,23.0
+2052,PC4032B,2017-09-5,18:59:32,0,Prince George's Park Terminal,A2,service_start,22,20.0
+2047,PC3787M,2017-09-5,18:59:38,0,Opp HSSML,D1,service_start,22,20.8
+2038,PC3940L,2017-09-5,19:01:50,2,Prince George's Park Terminal,A1,service_start,23,16.85
+2054,PC3989Y,2017-09-5,19:02:47,3,Prince George's Park Terminal,D2,service_start,16,24.32
+2077,PC4051X,2017-09-5,19:03:24,0,Botanic Gardens MRT,BTC2,service_start,18,17.0
+2055,PC3995D,2017-09-5,19:03:27,0,Kent Ridge Bus Terminal,BTC1,service_start,19,28.97
+2129,PC3867R,2017-09-5,19:04:48,1,Prince George's Park Terminal,A2,service_start,22,23.0
+2050,PA33K,2017-09-5,19:05:20,0,Opp HSSML,D1,service_start,20,21.0
+2024,PC3947T,2017-09-5,19:06:49,0,Prince George's Park Terminal,A1,service_start,20,15.45
+2058,PC4009U,2017-09-5,19:07:10,0,Kent Ridge Bus Terminal,C,service_start,22,14.88
+2042,PC3738E,2017-09-5,19:10:28,5,Prince George's Park Terminal,A2,service_start,22,22.78
+2027,PC3972U,2017-09-5,19:11:21,3,Opp HSSML,D1,service_start,22,21.0
+2032,PC3876P,2017-09-5,19:12:57,12,BIZ2,B2,service_start,22,14.3
+2102,PC3769R,2017-09-5,19:15:18,0,Prince George's Park Terminal,D2,service_start,16,23.0
+2031,PC3785T,2017-09-5,19:16:31,4,Prince George's Park Terminal,A2,service_start,21,19.93
+2060,PC4071M,2017-09-5,19:17:13,0,Opp HSSML,D1,service_start,20,18.0
+2074,PC3880B,2017-09-5,19:19:11,0,Prince George's Park Terminal,A1,service_start,20,15.97
+2048,PC4019R,2017-09-5,19:20:33,0,Prince George's Park Terminal,D2,service_start,5,25.45
+2023,PC3983M,2017-09-5,19:22:10,0,Botanic Gardens MRT,BTC2,service_start,16,15.0
+2033,PC3925G,2017-09-5,19:22:57,0,Prince George's Park Terminal,A2,service_start,21,20.77
+2067,PA9772B,2017-09-5,19:24:06,1,Prince George's Park Terminal,A1,service_start,14,21.0
+2078,PC3906L,2017-09-5,19:26:04,3,Kent Ridge Bus Terminal,BTC1,service_start,19,27.0
+2079,PC3849T,2017-09-5,19:26:32,0,Prince George's Park Terminal,D2,service_start,18,23.62
+2038,PC3940L,2017-09-5,19:29:57,0,Prince George's Park Terminal,A1,service_start,24,17.32
+2052,PC4032B,2017-09-5,19:31:16,7,Prince George's Park Terminal,A2,service_start,23,20.9
+2043,PC4038K,2017-09-5,19:31:51,0,Prince George's Park Terminal,D2,service_start,18,25.45
+2058,PC4009U,2017-09-5,19:34:15,0,Kent Ridge Bus Terminal,C,service_start,23,15.0
+2050,PA33K,2017-09-5,19:34:30,0,Opp HSSML,D1,service_start,21,21.57
+2129,PC3867R,2017-09-5,19:34:30,4,Prince George's Park Terminal,A2,service_start,23,20.55
+2024,PC3947T,2017-09-5,19:36:20,0,Prince George's Park Terminal,A1,service_start,21,15.0
+2054,PC3989Y,2017-09-5,19:37:26,0,Prince George's Park Terminal,D2,service_start,17,24.0
+2055,PC3995D,2017-09-5,19:39:07,1,Botanic Gardens MRT,BTC2,service_start,20,15.98
+2042,PC3738E,2017-09-5,19:40:47,4,Prince George's Park Terminal,A2,service_start,23,21.43
+2027,PC3972U,2017-09-5,19:42:04,0,Opp HSSML,D1,service_start,23,20.0
+2032,PC3876P,2017-09-5,19:42:14,9,BIZ2,B2,service_start,23,15.0
+2077,PC4051X,2017-09-5,19:42:55,0,Kent Ridge Bus Terminal,BTC1,service_start,19,30.33
+2031,PC3785T,2017-09-5,19:46:11,3,Prince George's Park Terminal,A2,service_start,22,19.98
+2060,PC4071M,2017-09-5,19:46:37,0,Opp HSSML,D1,service_start,21,19.0
+2074,PC3880B,2017-09-5,19:47:13,3,Prince George's Park Terminal,A1,service_start,21,17.0
+2102,PC3769R,2017-09-5,19:49:56,0,Prince George's Park Terminal,D2,service_start,17,22.93
+2067,PA9772B,2017-09-5,19:49:57,0,Prince George's Park Terminal,A1,service_start,15,17.65
+2033,PC3925G,2017-09-5,19:52:36,0,Prince George's Park Terminal,A2,service_start,22,18.0
+2048,PC4019R,2017-09-5,19:55:46,0,Prince George's Park Terminal,D2,service_start,6,23.97
+2038,PC3940L,2017-09-5,19:59:12,0,Prince George's Park Terminal,A1,service_start,25,15.92
+2078,PC3906L,2017-09-5,19:59:56,2,Botanic Gardens MRT,BTC2,service_start,20,14.18
+2058,PC4009U,2017-09-5,20:03:23,0,Kent Ridge Bus Terminal,C,service_start,24,15.9
+2023,PC3983M,2017-09-5,20:04:24,0,Kent Ridge Bus Terminal,BTC1,service_start,17,28.83
+2052,PC4032B,2017-09-5,20:05:31,6,Prince George's Park Terminal,A2,service_start,24,18.0
+2027,PC3972U,2017-09-5,20:08:20,0,Opp HSSML,D1,service_start,24,19.82
+2079,PC3849T,2017-09-5,20:13:32,0,Prince George's Park Terminal,D2,service_start,19,24.0
+2024,PC3947T,2017-09-5,20:14:26,0,Prince George's Park Terminal,A1,service_start,22,15.0
+2028,PA9442D,2017-09-5,20:16:37,13,BIZ2,B2,service_start,22,13.52
+2060,PC4071M,2017-09-5,20:20:53,0,Opp HSSML,D1,service_start,22,17.28
+2129,PC3867R,2017-09-5,20:20:57,4,Prince George's Park Terminal,A2,service_start,24,20.12
+2077,PC4051X,2017-09-5,20:21:26,0,Botanic Gardens MRT,BTC2,service_start,20,13.0
+2074,PC3880B,2017-09-5,20:22:37,0,Prince George's Park Terminal,D2,service_start,22,22.87
+2038,PC3940L,2017-09-5,20:29:30,0,Prince George's Park Terminal,A1,service_start,26,15.9
+2052,PC4032B,2017-09-5,20:32:24,0,Prince George's Park Terminal,A2,service_start,25,19.0
+2058,PC4009U,2017-09-5,20:32:54,0,Kent Ridge Bus Terminal,C,service_start,25,16.0
+2078,PC3906L,2017-09-5,20:35:13,0,Kent Ridge Bus Terminal,BTC1,service_start,21,25.0
+2027,PC3972U,2017-09-5,20:36:01,0,Opp HSSML,D1,service_start,25,18.0
+2023,PC3983M,2017-09-5,20:39:13,0,Botanic Gardens MRT,BTC2,service_start,18,15.0
+2079,PC3849T,2017-09-5,20:41:12,0,Prince George's Park Terminal,D2,service_start,20,25.0
+2028,PA9442D,2017-09-5,20:42:05,1,BIZ2,B2,service_start,23,10.0
+2024,PC3947T,2017-09-5,20:44:55,0,Prince George's Park Terminal,A1,service_start,23,15.92
+2129,PC3867R,2017-09-5,20:49:40,0,Prince George's Park Terminal,A2,service_start,25,21.57
+2060,PC4071M,2017-09-5,20:50:31,0,Opp HSSML,D1,service_start,23,17.82
+2074,PC3880B,2017-09-5,20:52:00,0,Prince George's Park Terminal,D2,service_start,23,22.0
+2038,PC3940L,2017-09-5,20:59:14,0,Prince George's Park Terminal,A1,service_start,27,15.0
+2052,PC4032B,2017-09-5,21:02:40,0,Prince George's Park Terminal,A2,service_start,26,20.95
+2023,PC3983M,2017-09-5,21:05:17,0,Kent Ridge Bus Terminal,BTC1,service_start,19,25.88
+2027,PC3972U,2017-09-5,21:05:18,0,Opp HSSML,D1,service_start,26,20.0
+2058,PC4009U,2017-09-5,21:06:12,3,Kent Ridge Bus Terminal,C,service_start,26,14.95
+2079,PC3849T,2017-09-5,21:09:39,0,Prince George's Park Terminal,D2,service_start,21,25.0
+2078,PC3906L,2017-09-5,21:09:41,0,Botanic Gardens MRT,BTC2,service_start,22,13.52
+2028,PA9442D,2017-09-5,21:12:32,16,BIZ2,B2,service_start,24,13.0
+2024,PC3947T,2017-09-5,21:14:25,0,Prince George's Park Terminal,A1,service_start,24,16.0
+2129,PC3867R,2017-09-5,21:17:52,3,Prince George's Park Terminal,A2,service_start,26,24.0
+2029,PC3763G,2017-09-5,21:20:10,0,Opp HSSML,D1,service_start,9,20.0
+2074,PC3880B,2017-09-5,21:21:31,0,Prince George's Park Terminal,D2,service_start,24,22.93
+2038,PC3940L,2017-09-5,21:29:01,0,Prince George's Park Terminal,A1,service_start,28,16.0
+2058,PC4009U,2017-09-5,21:33:17,0,Kent Ridge Bus Terminal,C,service_start,27,15.0
+2052,PC4032B,2017-09-5,21:33:21,6,Prince George's Park Terminal,A2,service_start,27,20.0
+2078,PC3906L,2017-09-5,21:33:27,0,Kent Ridge Bus Terminal,BTC1,service_start,23,28.0
+2027,PC3972U,2017-09-5,21:34:58,0,Opp HSSML,D1,service_start,27,19.47
+2079,PC3849T,2017-09-5,21:38:05,0,Prince George's Park Terminal,D2,service_start,22,24.0
+2028,PA9442D,2017-09-5,21:41:45,0,BIZ2,B2,service_start,25,12.33
+2024,PC3947T,2017-09-5,21:44:10,0,Prince George's Park Terminal,A1,service_start,25,15.0
+2029,PC3763G,2017-09-5,21:50:05,0,Opp HSSML,D1,service_start,10,18.0
+2129,PC3867R,2017-09-5,21:50:29,5,Prince George's Park Terminal,A2,service_start,27,20.68
+2074,PC3880B,2017-09-5,21:52:02,0,Prince George's Park Terminal,D2,service_start,25,21.0
+2038,PC3940L,2017-09-5,22:00:46,0,Prince George's Park Terminal,A1,service_start,29,17.5
+2052,PC4032B,2017-09-5,22:02:28,6,Prince George's Park Terminal,A2,service_start,28,17.6
+2058,PC4009U,2017-09-5,22:04:41,0,Kent Ridge Bus Terminal,C,service_start,28,15.0
+2027,PC3972U,2017-09-5,22:05:39,0,COM 2 (CP13),D1,service_start,28,18.65
+2079,PC3849T,2017-09-5,22:07:01,0,Prince George's Park Terminal,D2,service_start,23,24.0
+2028,PA9442D,2017-09-5,22:11:47,6,BIZ2,B2,service_start,26,11.22
+2024,PC3947T,2017-09-5,22:14:05,0,Prince George's Park Terminal,A1,service_start,26,14.0
+2129,PC3867R,2017-09-5,22:19:59,3,Prince George's Park Terminal,A2,service_start,28,21.78
+2029,PC3763G,2017-09-5,22:20:56,0,Opp HSSML,D1,service_start,11,16.47
+2074,PC3880B,2017-09-5,22:22:51,0,Prince George's Park Terminal,D2,service_start,26,21.8
+2038,PC3940L,2017-09-5,22:30:13,0,Prince George's Park Terminal,A1,service_start,30,17.0
+2052,PC4032B,2017-09-5,22:31:39,0,Prince George's Park Terminal,A2,service_start,29,18.47
+2058,PC4009U,2017-09-5,22:31:55,2,Kent Ridge Bus Terminal,C,service_start,29,14.32
+2027,PC3972U,2017-09-5,22:34:53,0,Opp HSSML,D1,service_start,29,16.53
+2028,PA9442D,2017-09-5,22:41:55,8,BIZ2,B2,service_start,27,10.58
+2024,PC3947T,2017-09-5,22:43:58,0,Prince George's Park Terminal,A1,service_start,27,12.03
