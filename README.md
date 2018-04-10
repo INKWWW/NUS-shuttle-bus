@@ -10,7 +10,7 @@ ________________________________________________________________________________
 Python, Postgresql, Tableau
 
 ### URL - For 3D Map Demo:
-[Just practice]
+[For practice]
 Javascript-ArcGIS, HTML, CSS
 https://www.nusgis.com/campusanalytics/wanghanmo/index.html
 
